@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href='form.css'>
+</head>
+
+<body>
+    <h2>Fill This Form</h2>
+    <form action="">
+        <section>
+            <ul>
+                <li>
+                    <label for="name">Enter Your Name</label>
+                    <input type="text" id="name">
+                </li>
+                <li>
+                    <label for="email">Enter Your Email</label>
+                    <input type="email" id="email">
+                </li>
+                <li>
+                    <label for="dob">Date-of-Birth</label>
+                    <input type="date" id="dob">
+                </li>
+                <li>
+                    <label for="number">Your Phone Number</label>
+                    <input type="number" id="number">
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <label for="message">Your Message</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </section>
+
+        <section>
+            <label for="">Gender</label>
+            <ul>
+                <li class="form-inline">
+                    <input type="radio" id="male" name="options" value="option1">
+                    <label for="option1">Male</label>
+                </li>
+                <li class="form-inline">
+                    <input type="radio" id="female" name="options" value="option2">
+                    <label for="option2">Female</label>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <div class="btn">
+                <button type="clear" id="clear">Clear</button>
+                <button type="submit" id="clear">Submit</button>
+            </div>
+        </section>
+
+    </form>
+</body>
+
+</html>
